@@ -6,4 +6,4 @@ alt=float(input('Qual a Altura da Parede: '))
 larg=float(input('Qual a Largura da Parede: '))
 area=alt*larg
 
-print(f'A Area total é de {area} m² e a quantidade de tinta é {area/2} litros')
+print(f'A Area total é de {area:.2f} m² e a quantidade de tinta é {area/2:.2f} litros')
