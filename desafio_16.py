@@ -4,5 +4,5 @@
 import math
 
 num = float(input('Qual o numero real?: '))
-num = math.floor(num)
+num = math.trunc(num)
 print(f'{num}')
