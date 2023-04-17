@@ -5,5 +5,5 @@ from math import sqrt, pow
 c1 = float(input('Qual o cateto oposto? '))
 c2 = float(input('Qual o cateto adjacente? '))
 h = sqrt(pow(c1, 2)+ pow(c2, 2))
-print(f'{h}')
+print(f' A hipotenusa é: {h}')
 
